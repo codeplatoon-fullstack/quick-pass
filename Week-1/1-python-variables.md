@@ -93,7 +93,7 @@ Welcome to today's lecture on Python variables and data types. We'll learn about
     string = 'Hello I am also a string, notice that I can use either double or single quotes but still count as a string'
     string = """I am a rare kind of string that is wrapped by three sets of double quotes. I will explain my purpose later on"""
     f_string = f"I am a string that is prepended by an 'f', for now just remember I exist. I will explain my purpose later on"
-    not_a_string = I am not a string because I am not wrapped by either single nor double quotes
+    not_a_string = I am not a string because I am not wrapped by neither single nor double quotes
     ```
 
 ##### Strings Built In Methods
