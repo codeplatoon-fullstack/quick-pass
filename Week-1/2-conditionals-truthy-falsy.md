@@ -6,13 +6,25 @@ Welcome to Day 2 of the Python Quick Pass! Today, we'll dive into conditional fl
 
 ## Table of Contents
 
-1. [Conditional Statements](#1-conditional-statements)
-2. [Truthy and Falsy Values](#2-truthy-and-falsy-values)
-3. [If Statements](#3-if-statements)
-4. [Else Statements](#4-else-statements)
-5. [Elif Statements](#5-elif-statements)
-6. [Nested If Statements](#6-nested-if-statements)
-7. [Conclusion](#7-conclusion)
+- [Conditional Flow and Truthy/Falsy Values](#conditional-flow-and-truthyfalsy-values)
+  - [Introduction](#introduction)
+  - [Table of Contents](#table-of-contents)
+    - [1. Conditional Statements](#1-conditional-statements)
+    - [2. Truthy and Falsy Values](#2-truthy-and-falsy-values)
+      - [Integers (int)](#integers-int)
+      - [Floating-Point Numbers (float)](#floating-point-numbers-float)
+      - [Strings (str)](#strings-str)
+      - [Lists](#lists)
+      - [Tuples](#tuples)
+      - [Dictionaries (dict)](#dictionaries-dict)
+      - [Sets](#sets)
+      - [Booleans (bool)](#booleans-bool)
+      - [None](#none)
+    - [3. If Statements](#3-if-statements)
+    - [4. Else Statements](#4-else-statements)
+    - [5. Elif Statements](#5-elif-statements)
+    - [6. Nested If Statements](#6-nested-if-statements)
+    - [7. Conclusion](#7-conclusion)
 
 ### 1. Conditional Statements
 
@@ -138,18 +150,18 @@ Understanding truthy and falsy values is essential for writing efficient and log
 - The `if` statement is used to execute a block of code if a condition is `True`.
 - Syntax:
 
-    ```python
-    if condition:
-        # Code to execute if the condition is True
-    ```
+  ```python
+  if condition:
+      # Code to execute if the condition is True
+  ```
 
 - Example:
 
-    ```python
-    temperature = 30
-    if temperature > 25:
-        print("It's a hot day!")
-    ```
+  ```python
+  temperature = 30
+  if temperature > 25:
+      print("It's a hot day!")
+  ```
 
 ### 4. Else Statements
 
@@ -157,22 +169,22 @@ Understanding truthy and falsy values is essential for writing efficient and log
 - It provides an alternative code path.
 - Syntax:
 
-    ```python
-    if condition:
-        # Code to execute if the condition is True
-    else:
-        # Code to execute if the condition is False
-    ```
+  ```python
+  if condition:
+      # Code to execute if the condition is True
+  else:
+      # Code to execute if the condition is False
+  ```
 
 - Example:
 
-    ```python
-    age = 17
-    if age >= 18:
-        print("You are an adult.")
-    else:
-        print("You are a minor.")
-    ```
+  ```python
+  age = 17
+  if age >= 18:
+      print("You are an adult.")
+  else:
+      print("You are a minor.")
+  ```
 
 ### 5. Elif Statements
 
@@ -180,28 +192,28 @@ Understanding truthy and falsy values is essential for writing efficient and log
 - It allows you to test different conditions sequentially.
 - Syntax:
 
-    ```python
-    if condition1:
-        # Code to execute if condition1 is True
-    elif condition2:
-        # Code to execute if condition2 is True
-    else:
-        # Code to execute if no conditions are True
-    ```
+  ```python
+  if condition1:
+      # Code to execute if condition1 is True
+  elif condition2:
+      # Code to execute if condition2 is True
+  else:
+      # Code to execute if no conditions are True
+  ```
 
 - Example:
 
-    ```python
-    grade = 85
-    if grade >= 90:
-        print("A")
-    elif grade >= 80:
-        print("B")
-    elif grade >= 70:
-        print("C")
-    else:
-        print("F")
-    ```
+  ```python
+  grade = 85
+  if grade >= 90:
+      print("A")
+  elif grade >= 80:
+      print("B")
+  elif grade >= 70:
+      print("C")
+  else:
+      print("F")
+  ```
 
 ### 6. Nested If Statements
 
@@ -209,16 +221,16 @@ Understanding truthy and falsy values is essential for writing efficient and log
 - This allows for more complex condition handling.
 - Example:
 
-    ```python
-    temperature = 30
-    if temperature > 25:
-        if temperature > 30:
-            print("It's very hot!")
-        else:
-            print("It's hot, but not scorching.")
-    else:
-        print("It's not too hot.")
-    ```
+  ```python
+  temperature = 30
+  if temperature > 25:
+      if temperature > 30:
+          print("It's very hot!")
+      else:
+          print("It's hot, but not scorching.")
+  else:
+      print("It's not too hot.")
+  ```
 
 ### 7. Conclusion
 

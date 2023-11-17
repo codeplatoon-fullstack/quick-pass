@@ -1,3 +1,6 @@
+<!-- I wonder if this lesson needs to be introduced at all...I believe that this material may be suited for the main cohort -->
+<!-- I would perhaps like to introduce functions since they are front & center in coderbyte -->
+
 # Python Lecture: Algorithm Complexity and Big-O Notation
 
 ## Introduction (10 minutes)
@@ -6,40 +9,41 @@ Welcome to this comprehensive 2-hour lecture on algorithm complexity and Big-O n
 
 ## Table of Contents
 
-1. [Introduction to Algorithm Complexity](#1-introduction-to-algorithm-complexity-20-minutes)
-   - What is algorithm complexity?
-   - Why does it matter?
-   - Common measures of algorithmic efficiency.
-
-2. [Big-O Notation](#2-big-o-notation-20-minutes)
-   - What is Big-O notation?
-   - How to calculate Big-O for various algorithms.
-   - Real-world examples.
-
-3. [Time Complexity Analysis](#3-time-complexity-analysis-30-minutes)
-   - Introduction to time complexity.
-   - Analyzing code for time efficiency.
-   - Code examples for time complexity analysis.
-
-4. [Space Complexity Analysis](#4-space-complexity-analysis-30-minutes)
-   - Introduction to space complexity.
-   - Analyzing code for space efficiency.
-   - Code examples for space complexity analysis.
-
-5. [Practical Applications](#5-practical-applications-20-minutes)
-   - How to apply complexity analysis in real projects.
-   - Tools and libraries for profiling code.
-   - Performance optimization strategies.
-
-6. [Case Studies and Hands-On Practice](#6-case-studies-and-hands-on-practice-30-minutes)
-   - Analyzing the complexity of various algorithms.
-   - Hands-on exercises to calculate Big-O.
-
-7. [Advanced Topics (20 minutes)]
-   - Dealing with worst-case, best-case, and average-case scenarios.
-   - Amortized analysis and its applications.
-
-8. [Conclusion (10 minutes)]
+- [Python Lecture: Algorithm Complexity and Big-O Notation](#python-lecture-algorithm-complexity-and-big-o-notation)
+  - [Introduction (10 minutes)](#introduction-10-minutes)
+  - [Table of Contents](#table-of-contents)
+  - [1. Introduction to Algorithm Complexity (20 minutes)](#1-introduction-to-algorithm-complexity-20-minutes)
+    - [What is Algorithm Complexity?](#what-is-algorithm-complexity)
+    - [Why Does It Matter?](#why-does-it-matter)
+    - [Common Measures of Algorithmic Efficiency](#common-measures-of-algorithmic-efficiency)
+  - [2. Big-O Notation (20 minutes)](#2-big-o-notation-20-minutes)
+    - [What is Big-O Notation?](#what-is-big-o-notation)
+    - [How to Calculate Big-O](#how-to-calculate-big-o)
+  - [O(1): Constant Time](#o1-constant-time)
+  - [O(log n): Logarithmic Time](#olog-n-logarithmic-time)
+  - [O(n): Linear Time](#on-linear-time)
+  - [O(n log n): Linearithmic Time](#on-log-n-linearithmic-time)
+  - [O(n^2): Quadratic Time](#on2-quadratic-time)
+    - [Real-World Examples](#real-world-examples)
+  - [3. Time Complexity Analysis (30 minutes)](#3-time-complexity-analysis-30-minutes)
+    - [Introduction to Time Complexity](#introduction-to-time-complexity)
+    - [Analyzing Code for Time Efficiency](#analyzing-code-for-time-efficiency)
+    - [Code Examples for Time Complexity Analysis](#code-examples-for-time-complexity-analysis)
+  - [4. Space Complexity Analysis (30 minutes)](#4-space-complexity-analysis-30-minutes)
+    - [Introduction to Space Complexity](#introduction-to-space-complexity)
+    - [Analyzing Code for Space Efficiency](#analyzing-code-for-space-efficiency)
+    - [Code Examples for Space Complexity Analysis](#code-examples-for-space-complexity-analysis)
+  - [5. Practical Applications (20 minutes)](#5-practical-applications-20-minutes)
+    - [How to Apply Complexity Analysis](#how-to-apply-complexity-analysis)
+    - [Tools and Libraries for Profiling Code](#tools-and-libraries-for-profiling-code)
+    - [Performance Optimization Strategies](#performance-optimization-strategies)
+  - [6. Case Studies and Hands-On Practice (30 minutes)](#6-case-studies-and-hands-on-practice-30-minutes)
+    - [Analyzing the Complexity of Various Algorithms](#analyzing-the-complexity-of-various-algorithms)
+    - [Hands-On Exercises to Calculate Big-O](#hands-on-exercises-to-calculate-big-o)
+  - [7. Advanced Topics (20 minutes)](#7-advanced-topics-20-minutes)
+    - [Dealing with Worst-Case, Best-Case, and Average-Case Scenarios](#dealing-with-worst-case-best-case-and-average-case-scenarios)
+    - [Amortized Analysis and Its Applications](#amortized-analysis-and-its-applications)
+  - [8. Conclusion (10 minutes)](#8-conclusion-10-minutes)
 
 ## 1. Introduction to Algorithm Complexity (20 minutes)
 

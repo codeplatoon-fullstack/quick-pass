@@ -26,10 +26,20 @@ Welcome to today's lecture on Python variables and data types. We'll learn about
 - In Python, you don't need to declare the data type explicitly.
 - Example:
 
-    ```python
-    age = 25
-    name = "Alice"
-    ```
+  ```python
+  age = 25
+  name = "Alice"
+  ```
+
+- The "`=`" sign is called the assignment operator and is used to assign variables. In Python, we use "`==`" to check for equality.
+- You can check the type of a variable using the `type()` method.
+- Example:
+
+  ```python
+  my_variable = 12.3
+  type(my_variable)
+  <class 'float'>
+  ```
 
 ### 2. Naming Conventions (10 minutes)
 
@@ -45,19 +55,19 @@ Welcome to today's lecture on Python variables and data types. We'll learn about
 - Whole numbers.
 - Example:
 
-    ```python
-    age = 25
-    # INTEGERS
-    integer = 3
-    integer = -3
-    integer = 0
-    not_an_integer ="3"
-    not_an_integer = '3'
-    ```
+  ```python
+  age = 25
+  # INTEGERS
+  integer = 3
+  integer = -3
+  integer = 0
+  not_an_integer ="3"
+  not_an_integer = '3'
+  ```
 
-##### Int Built in Methods
+##### Integer Built in Methods
 
-- Basic operations: +, -, *, /
+- Basic operations: `+, -, *, **, /, //, %`
 - Other methods: `abs()`, `divmod()`, `pow()`
 
 #### b. Floating-Point Numbers (float)
@@ -65,20 +75,20 @@ Welcome to today's lecture on Python variables and data types. We'll learn about
 - Numbers with a decimal point.
 - Example:
 
-    ```python
-    price = 19.99
-    # FLOAT
-    float_num = 1.12482
-    float_num = 3749.0
-    float_num = 0.0
-    not_a_float = 1
-    not_a_float = 2
-    not_a_float = "0.0"
-    ```
+  ```python
+  price = 19.99
+  # FLOAT
+  float_num = 1.12482
+  float_num = 3749.0
+  float_num = 0.0
+  not_a_float = 1
+  not_a_float = 2
+  not_a_float = "0.0"
+  ```
 
 ##### Float Built in Methods
 
-- Basic operations: +, -, *, /
+- Basic operations: `+, -, *, **, /, //, %`
 - Conversion methods: `int()`, `str()`, `round()`
 
 #### c. Strings (str)
@@ -86,15 +96,15 @@ Welcome to today's lecture on Python variables and data types. We'll learn about
 - Sequences of characters enclosed in single or double quotes.
 - Example:
 
-    ```python
-    name = "Alice"
-    # STRING
-    string = "Hello I am a string"
-    string = 'Hello I am also a string, notice that I can use either double or single quotes but still count as a string'
-    string = """I am a rare kind of string that is wrapped by three sets of double quotes. I will explain my purpose later on"""
-    f_string = f"I am a string that is prepended by an 'f', for now just remember I exist. I will explain my purpose later on"
-    not_a_string = I am not a string because I am not wrapped by neither single nor double quotes
-    ```
+  ```python
+  name = "Alice"
+  # STRING
+  string = "Hello I am a string"
+  string = 'Hello I am also a string, notice that I can use either double or single quotes but still count as a string'
+  string = """I am a rare kind of string that is wrapped by three sets of double quotes. I will explain my purpose later on"""
+  f_string = f"I am a string that is prepended by an 'f', for now just remember I exist. I will explain my purpose later on"
+  not_a_string = I am not a string because I am not wrapped by neither single nor double quotes
+  ```
 
 ##### Strings Built In Methods
 
@@ -106,13 +116,14 @@ Welcome to today's lecture on Python variables and data types. We'll learn about
 - Ordered collections of items, mutable.
 - Example:
 
-    ```python
-    fruits = ["apple", "banana", "cherry"]
-    # LISTS
-    my_list = [1, 2, 3, 4, 5]
-    colors = ["red", "green", "blue"]
-    mixed_data = [42, "apple", True, 3.14]
-    ```
+  ```python
+  fruits = ["apple", "banana", "cherry"]
+  # LISTS
+  my_list = [1, 2, 3, 4, 5]
+  colors = ["red", "green", "blue"]
+  mixed_data = [42, "apple", True, 3.14]
+  nested_list = [[1,2], ['grape', 'orange']]
+  ```
 
 ##### Lists Built in Methods
 
@@ -124,14 +135,14 @@ Welcome to today's lecture on Python variables and data types. We'll learn about
 - Ordered collections of items, immutable.
 - Example:
 
-    ```python
-    coordinates = (3, 4)
-    # TUPLES
-    my_tuple = (1, 2, 3, 4, 5)
-    coordinates = (3.14, 2.71)
-    single_value_tuple = (42,)  # Note the trailing comma to indicate it's a tuple
-    nested_tuple = ((1, 2), ("a", "b"))
-    ```
+  ```python
+  coordinates = (3, 4)
+  # TUPLES
+  my_tuple = (1, 2, 3, 4, 5)
+  coordinates = (3.14, 2.71)
+  single_value_tuple = (42,)  # Note the trailing comma to indicate it's a tuple
+  nested_tuple = ((1, 2), ("a", "b"))
+  ```
 
 ##### Tuples Built In Methods
 
@@ -142,13 +153,13 @@ Welcome to today's lecture on Python variables and data types. We'll learn about
 - Key-value pairs, mutable.
 - Example:
 
-    ```python
-    # Dictionaries
-    person = {"name": "Alice", "age": 25}
-    person = {"name": "Alice", "age": 30, "city": "New York"}
-    book = {"title": "Python Programming", "author": "John Smith", "pages": 400}
-    nested_dict = {"person": {"name": "Bob", "age": 25}, "location": {"city": "Los Angeles"}}
-    ```
+  ```python
+  # Dictionaries
+  person = {"name": "Alice", "age": 25}
+  person = {"name": "Alice", "age": 30, "city": "New York"}
+  book = {"title": "Python Programming", "author": "John Smith", "pages": 400}
+  nested_dict = {"person": {"name": "Bob", "age": 25}, "location": {"city": "Los Angeles"}}
+  ```
 
 ##### Dictionary Built In Methods
 
@@ -160,12 +171,12 @@ Welcome to today's lecture on Python variables and data types. We'll learn about
 - Unordered collections of unique elements, mutable.
 - Example:
 
-    ```python
-    # Sets
-    my_set = {1, 2, 3, 4, 5}
-    colors = {"red", "green", "blue"}
-    mixed_set = {1, "apple", True, 3.14}
-    ```
+  ```python
+  # Sets
+  my_set = {1, 2, 3, 4, 5}
+  colors = {"red", "green", "blue"}
+  mixed_set = {1, "apple", True, 3.14}
+  ```
 
 ##### Set Built-In Methods
 
@@ -177,15 +188,15 @@ Welcome to today's lecture on Python variables and data types. We'll learn about
 - Represents binary values `True` and `False`.
 - Example:
 
-    ```python
-    # Booleans
-    is_student = True
-    is_registered = False
-    not_a_boolean = 'True'
-    not_a_boolean = 'False'
-    not_a_boolean = true
-    not_a_boolean = false
-    ```
+  ```python
+  # Booleans
+  is_student = True
+  is_registered = False
+  not_a_boolean = 'True'
+  not_a_boolean = 'False'
+  not_a_boolean = true
+  not_a_boolean = false
+  ```
 
 ##### Boolean Operations
 
