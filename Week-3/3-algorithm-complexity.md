@@ -1,5 +1,4 @@
-<!-- I wonder if this lesson needs to be introduced at all...I believe that this material may be suited for the main cohort -->
-<!-- I would perhaps like to introduce functions since they are front & center in coderbyte -->
+<!-- I wonder if this lesson needs to be introduced at all...I believe that this material may be better suited for the main cohort-->
 
 # Python Lecture: Algorithm Complexity and Big-O Notation
 
@@ -276,4 +275,4 @@ The `bubble_sort` function demonstrates O(n^2) time complexity. It requires nest
 
 ## 8. Conclusion (10 minutes)
 
-In this 2-hour lecture, you've gained a strong understanding of algorithm complexity and Big-O notation. These concepts are foundational for writing efficient code in Python and any other programming language. You've learned how to analyze the efficiency of algorithms in terms of both time and space complexity and have explored practical applications, tools, and strategies for optimizing code performance. Continue to apply these principles in your coding projects and strive to develop efficient, scalable solutions.
+In this 2-hour lecture, you've gained an understanding of algorithm complexity and Big-O notation. These concepts are foundational for writing efficient code in Python and any other programming languages. You've learned how to analyze the efficiency of algorithms in terms of both time and space complexity and have explored practical applications, tools, and strategies for optimizing code performance. Continue to apply these principles in your coding projects and strive to develop efficient, scalable solutions.

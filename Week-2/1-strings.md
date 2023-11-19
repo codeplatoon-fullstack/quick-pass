@@ -148,8 +148,8 @@ Welcome to today's lecture on Python strings and their built-in methods. Strings
 - **Example**:
 
   ```python
-  text = "apple,banana,cherry"
-  items = text.split(",")  # Result: ['apple', 'banana', 'cherry']
+  text = "www.codeplatoon.org"
+  items = text.split(".")  # Result: ['www', 'codeplatoon', 'org']
   ```
 
 #### l. `str.join()` (5 minutes)
@@ -233,15 +233,17 @@ greeting = f"Hello, {name}!"
 
 Escape sequences allow you to include special characters in strings. They start with a backslash \. Some common escape sequences include:
 
-\n: Newline
-\t: Tab
-\\: Backslash
-\": Double quote
+\n: Newline  
+\t: Tab  
+\: Backslash  
+\": Double quote  
 \': Single quote
+
 Example with \n:
 
 ```python
 multi_line = "This is a multi-line\nstring."
+print(multi_line)
 ```
 
 ### 4. Slicing and Reversing (10 minutes)

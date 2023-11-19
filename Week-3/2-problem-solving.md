@@ -97,8 +97,6 @@ Welcome to the lesson on problem-solving strategies for Python developers. In th
 
 ## 5. Testing and Validation (15 minutes)
 
-<!-- Remove   /    Add variables and functions -->
-
 ### Writing Test Cases and Unit Tests
 
 - Create comprehensive test cases to validate your code.

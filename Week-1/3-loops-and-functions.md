@@ -39,12 +39,12 @@ Here are examples of different types of `for` loops in Python along with explana
 #### a. for i in x (for element in iterable)
 
 ```python
-fruits = ["Bananas", "Apples", "Cherries"]
-for fruit in fruits:
-    print(fruit)
+urls = ["www.reddit.com", "www.nike.com", "www.codeplatoon.org", "www.amazon.com]
+for url in urls:
+    print(url)
 ```
 
-**Use Case:** This loop iterates through the elements of a list or any iterable. It's suitable when you want to perform the same operation for each item in the iterable. In this case, it's used to print each fruit.
+**Use Case:** This loop iterates through the elements of a list or any iterable. It's suitable when you want to perform the same operation for each item in the iterable. In this case, it's used to print each website URL.
 
 #### b. for i in range (for i in range(start, stop, step))
 
@@ -88,6 +88,8 @@ Choose the appropriate `for` loop based on your specific task and what you need 
 
 The `while` loop repeatedly executes a block of code as long as a condition is `True`.
 
+_Be careful with while loops. You can easily start an infinite loop with a typo_
+
 Syntax:
 
 ```python
@@ -110,7 +112,7 @@ Let's explore how loops can be used with various data structures.
 
 #### a. Strings
 
-You can loop through characters in a string using a `for-in` loop.
+Strings are an interable data structure. You can loop through characters in a string using a `for-in` loop.
 
 Example:
 
@@ -127,9 +129,9 @@ Loops are often used to iterate through the elements of a list.
 Example:
 
 ```python
-fruits = ["apple", "banana", "cherry"]
-for fruit in fruits:
-    print(fruit)
+auto_brands = ["Chevrolet", "Tesla", "Jeep"]
+for brand in auto_brands
+    print(brand)
 ```
 
 #### c. Tuples
