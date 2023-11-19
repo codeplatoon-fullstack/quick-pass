@@ -1,5 +1,3 @@
-<!-- I wonder if this lesson needs to be introduced at all...I believe that this material may be better suited for the main cohort-->
-
 # Python Lecture: Algorithm Complexity and Big-O Notation
 
 ## Introduction (10 minutes)

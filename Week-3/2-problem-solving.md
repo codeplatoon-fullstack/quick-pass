@@ -1,5 +1,3 @@
-<!-- This section could be the very first lesson as it introduces the problem solving & computational thinking concepts that will be utilized from now on -->
-
 # Problem Solving Strategies for Python Developers
 
 ## Introduction (5 minutes)
