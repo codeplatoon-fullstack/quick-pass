@@ -92,7 +92,7 @@ person.clear()
 #### a. Creating Sets (5 minutes)
 
 - Sets are unordered collections of unique elements.
-- Created using curly braces or the `set()` constructor.
+- Created using the `set()` constructor.
 - Example:
 
   ```python

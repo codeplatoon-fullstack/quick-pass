@@ -6,39 +6,45 @@ Welcome to Day 3 of the Python Quick Pass! Today, we'll explore loops, a fundame
 
 ## Table of Contents
 
-1. [Loops](#1-loops)
-   - [for-in Loop](#a-for-i-in-x-for-element-in-iterable)
-   - [for-in Range Loop](#b-for-i-in-range-for-i-in-rangestart-stop-step)
-   - [Enumerating](#c-for-idx-item-in-enumerateiterable)
-   - [dict.items](#d-for-key-value-in-dictitems)
-   - [Choosing the Right Loop](#e-when-to-choose)
-   - [while Loop](#f-while-loop)
-
-2. [Loops with Data Structures](#2-loops-with-data-structures)
-   - [Strings](#a-strings)
-   - [Lists](#b-lists)
-   - [Tuples](#c-tuples)
-   - [Dictionaries](#d-dictionaries)
-
-3. [Functions](#3-functions)
-
-4. [Conclusion](#4-conclusion)
+- [Python Loops and Functions](#python-loops-and-functions)
+  - [Introduction](#introduction)
+  - [Table of Contents](#table-of-contents)
+    - [1. Loops](#1-loops)
+      - [a. for i in x (for element in iterable)](#a-for-i-in-x-for-element-in-iterable)
+      - [b. for i in range (for i in range(start, stop, step))](#b-for-i-in-range-for-i-in-rangestart-stop-step)
+      - [c. for idx, item in enumerate(iterable)](#c-for-idx-item-in-enumerateiterable)
+      - [d. for key, value in dict.items()](#d-for-key-value-in-dictitems)
+      - [e. When to Choose](#e-when-to-choose)
+      - [f. while Loop](#f-while-loop)
+    - [2. Loops with Data Structures](#2-loops-with-data-structures)
+      - [a. Strings](#a-strings)
+      - [b. Lists](#b-lists)
+      - [c. Tuples](#c-tuples)
+      - [d. Dictionaries](#d-dictionaries)
+    - [3. Functions](#3-functions)
+      - [Basic Function](#basic-function)
+      - [Functions with Multiple Parameters](#functions-with-multiple-parameters)
+      - [Nested Functions](#nested-functions)
+      - [Variable Scope within Functions](#variable-scope-within-functions)
+      - [The `return` Statement](#the-return-statement)
+      - [When to Use `print` Statements](#when-to-use-print-statements)
+    - [4. Conclusion](#4-conclusion)
 
 ### 1. Loops
 
 Loops are used to execute a block of code repeatedly. Python provides several types of loops. Let's explore them.
 
-Certainly! Here are examples of different types of `for` loops in Python along with explanations for their use cases:
+Here are examples of different types of `for` loops in Python along with explanations for their use cases:
 
 #### a. for i in x (for element in iterable)
 
 ```python
-fruits = ["Bananas", "Apples", "Cherries"]
-for fruit in fruits:
-    print(fruit)
+urls = ["www.reddit.com", "www.nike.com", "www.codeplatoon.org", "www.amazon.com]
+for url in urls:
+    print(url)
 ```
 
-**Use Case:** This loop iterates through the elements of a list or any iterable. It's suitable when you want to perform the same operation for each item in the iterable. In this case, it's used to print each fruit.
+**Use Case:** This loop iterates through the elements of a list or any iterable. It's suitable when you want to perform the same operation for each item in the iterable. In this case, it's used to print each website URL.
 
 #### b. for i in range (for i in range(start, stop, step))
 
@@ -82,6 +88,8 @@ Choose the appropriate `for` loop based on your specific task and what you need 
 
 The `while` loop repeatedly executes a block of code as long as a condition is `True`.
 
+_Be careful with while loops. You can easily start an infinite loop with a typo_
+
 Syntax:
 
 ```python
@@ -104,7 +112,7 @@ Let's explore how loops can be used with various data structures.
 
 #### a. Strings
 
-You can loop through characters in a string using a `for-in` loop.
+Strings are an interable data structure. You can loop through characters in a string using a `for-in` loop.
 
 Example:
 
@@ -121,9 +129,9 @@ Loops are often used to iterate through the elements of a list.
 Example:
 
 ```python
-fruits = ["apple", "banana", "cherry"]
-for fruit in fruits:
-    print(fruit)
+auto_brands = ["Chevrolet", "Tesla", "Jeep"]
+for brand in auto_brands
+    print(brand)
 ```
 
 #### c. Tuples

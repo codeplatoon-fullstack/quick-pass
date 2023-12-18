@@ -2,33 +2,34 @@
 
 ## Introduction (10 minutes)
 
-Welcome to today's extensive lecture on mutating 2-dimensional lists in Python. This comprehensive 2-hour lecture is designed for new programmers with little to no prior knowledge of Python fundamentals. We will start by reviewing basic concepts such as lists, for loops, and gradually introduce you to the techniques to manipulate 2-dimensional lists.
+Welcome to today's lecture on mutating 2-dimensional lists in Python. This comprehensive 2-hour lecture is designed for new programmers with little to no prior knowledge of Python fundamentals. We will start by reviewing basic concepts such as lists, for loops, and gradually introduce you to the techniques to manipulate 2-dimensional lists.
 
 ## Table of Contents
 
-1. [Understanding Lists](#1-understanding-lists-20-minutes)
-   - What are lists?
-   - Creating and accessing lists.
-   - Lists within lists (2-dimensional lists).
-
-2. [Iterating Over Lists](#2-iterating-over-lists-20-minutes)
-   - Using for loops to traverse a list.
-   - Nested for loops for 2-Dimensional lists.
-
-3. [Modifying 2-Dimensional Lists](#3-modifying-2-dimensional-lists-35-minutes)
-   - Changing elements in a 2-Dimensional list.
-   - Adding and removing elements.
-   - Replacing rows and columns.
-
-4. [Code Examples and Practice](#4-code-examples-and-practice-45-minutes)
-   - Demonstrating list manipulation with real-world scenarios.
-
-5. [Advanced Techniques (30 minutes)]
-   - Transposing 2-Dimensional Lists.
-   - Creating copies and avoiding mutable object issues.
-   - Practical applications of 2-D lists.
-
-6. [Conclusion (5 minutes)]
+- [Python Lecture: Mutating 2-Dimensional Lists](#python-lecture-mutating-2-dimensional-lists)
+  - [Introduction (10 minutes)](#introduction-10-minutes)
+  - [Table of Contents](#table-of-contents)
+  - [1. Understanding Lists (20 minutes)](#1-understanding-lists-20-minutes)
+    - [What are Lists?](#what-are-lists)
+    - [Creating and Accessing Lists](#creating-and-accessing-lists)
+    - [Lists Within Lists (2-Dimensional Lists)](#lists-within-lists-2-dimensional-lists)
+  - [2. Iterating Over Lists (20 minutes)](#2-iterating-over-lists-20-minutes)
+    - [Using For Loops to Traverse a List](#using-for-loops-to-traverse-a-list)
+    - [Nested For Loops for 2-Dimensional Lists](#nested-for-loops-for-2-dimensional-lists)
+  - [3. Modifying 2-Dimensional Lists (35 minutes)](#3-modifying-2-dimensional-lists-35-minutes)
+    - [Changing Elements in a 2-Dimensional List](#changing-elements-in-a-2-dimensional-list)
+    - [Adding and Removing Elements](#adding-and-removing-elements)
+    - [Replacing Rows and Columns](#replacing-rows-and-columns)
+  - [4. Code Examples and Practice (45 minutes)](#4-code-examples-and-practice-45-minutes)
+    - [Example 1: Modifying a Seating Chart](#example-1-modifying-a-seating-chart)
+    - [Example 2: Managing Scores on a Scoreboard](#example-2-managing-scores-on-a-scoreboard)
+    - [Example 3: Updating a Grid of Items](#example-3-updating-a-grid-of-items)
+    - [Example 4: Adding Rows and Columns](#example-4-adding-rows-and-columns)
+  - [5. Advanced Techniques (30 minutes)](#5-advanced-techniques-30-minutes)
+    - [Transposing 2-Dimensional Lists](#transposing-2-dimensional-lists)
+    - [Creating Copies and Avoiding Mutable Object Issues](#creating-copies-and-avoiding-mutable-object-issues)
+    - [Practical Applications of 2-Dimensional Lists](#practical-applications-of-2-dimensional-lists)
+  - [6. Conclusion (5 minutes)](#6-conclusion-5-minutes)
 
 ## 1. Understanding Lists (20 minutes)
 

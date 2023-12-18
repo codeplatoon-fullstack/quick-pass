@@ -6,41 +6,35 @@ Welcome to the lesson on problem-solving strategies for Python developers. In th
 
 ## Table of Contents
 
-1. [Understanding the Problem](#1-understanding-the-problem-15-minutes)
-   - Problem statement analysis.
-   - Identifying constraints and requirements.
-
-2. [Decomposition](#2-decomposition-15-minutes)
-   - Breaking down complex problems into smaller, manageable parts.
-   - Identifying relevant data and processes.
-
-3. [Algorithm Design](#3-algorithm-design-20-minutes)
-   - Selecting appropriate data structures.
-   - Creating algorithms to solve subproblems.
-
-4. [Coding and Debugging](#4-coding-and-debugging-20-minutes)
-   - Translating your algorithm into Python code.
-   - Strategies for debugging and troubleshooting.
-
-5. [Testing and Validation](#5-testing-and-validation-15-minutes)
-   - Writing test cases and unit tests.
-   - Validating your solution for correctness and efficiency.
-
-6. [Optimization](#6-optimization-15-minutes)
-   - Analyzing code for performance bottlenecks.
-   - Applying optimization techniques.
-
-7. [Iteration and Refinement](#7-iteration-and-refinement-10-minutes)
-   - Continuously improving your solution.
-   - Seeking feedback from peers and mentors.
-
-8. [Documentation and Collaboration](#8-documentation-and-collaboration-10-minutes)
-   - Writing clear and concise code comments.
-   - Collaborating effectively with team members.
-
-9. [Real-World Problem-Solving](#9-real-world-problem-solving-15-minutes)
-   - Solving a complex problem as a demonstration.
-   - Applying the problem-solving process.
+- [Problem Solving Strategies for Python Developers](#problem-solving-strategies-for-python-developers)
+  - [Introduction (5 minutes)](#introduction-5-minutes)
+  - [Table of Contents](#table-of-contents)
+  - [1. Understanding the Problem (15 minutes)](#1-understanding-the-problem-15-minutes)
+    - [Problem Statement Analysis](#problem-statement-analysis)
+    - [Identifying Constraints and Requirements](#identifying-constraints-and-requirements)
+  - [2. Decomposition (15 minutes)](#2-decomposition-15-minutes)
+    - [Breaking Down Complex Problems](#breaking-down-complex-problems)
+    - [Identifying Relevant Data and Processes](#identifying-relevant-data-and-processes)
+  - [3. Algorithm Design (20 minutes)](#3-algorithm-design-20-minutes)
+    - [Selecting Appropriate Data Structures](#selecting-appropriate-data-structures)
+    - [Creating Algorithms to Solve Subproblems](#creating-algorithms-to-solve-subproblems)
+  - [4. Coding and Debugging (20 minutes)](#4-coding-and-debugging-20-minutes)
+    - [Translating Your Algorithm into Python Code](#translating-your-algorithm-into-python-code)
+    - [Strategies for Debugging and Troubleshooting](#strategies-for-debugging-and-troubleshooting)
+  - [5. Testing and Validation (15 minutes)](#5-testing-and-validation-15-minutes)
+    - [Writing Test Cases and Unit Tests](#writing-test-cases-and-unit-tests)
+    - [Validating Your Solution for Correctness and Efficiency](#validating-your-solution-for-correctness-and-efficiency)
+  - [6. Optimization (15 minutes)](#6-optimization-15-minutes)
+    - [Analyzing Code for Performance Bottlenecks](#analyzing-code-for-performance-bottlenecks)
+  - [7. Iteration and Refinement (10 minutes)](#7-iteration-and-refinement-10-minutes)
+    - [Continuously Improving Your Solution](#continuously-improving-your-solution)
+  - [8. Documentation and Collaboration (10 minutes)](#8-documentation-and-collaboration-10-minutes)
+    - [Writing Clear and Concise Code Comments](#writing-clear-and-concise-code-comments)
+    - [Collaborating Effectively with Team Members](#collaborating-effectively-with-team-members)
+  - [9. Real-World Problem-Solving (15 minutes)](#9-real-world-problem-solving-15-minutes)
+    - [Solving a Complex Problem as a Demonstration](#solving-a-complex-problem-as-a-demonstration)
+    - [Applying the Problem-Solving Process](#applying-the-problem-solving-process)
+  - [Conclusion (5 minutes)](#conclusion-5-minutes)
 
 ## 1. Understanding the Problem (15 minutes)
 
