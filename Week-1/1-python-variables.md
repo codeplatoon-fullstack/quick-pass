@@ -200,3 +200,8 @@ Welcome to today's lecture on Python variables and data types. We'll learn about
 ### 5. Conclusion (5 minutes)
 
 Today, we've covered the essentials of Python variables and data types. You've learned how to create variables, follow naming conventions, and work with various data types. Additionally, you've explored built-in methods for each data type and understand the concept of mutability and immutability. Keep practicing to master these concepts and become a proficient Python programmer!
+
+### 6. Assignments
+
+- [Data Type Practice](https://replit.com/@cpadmin/creatingdatatypes#main.py)
+- [Fist and Last Name](https://replit.com/@cpadmin/First-Last-Name-Python)
