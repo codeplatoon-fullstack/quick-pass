@@ -235,3 +235,8 @@ Understanding truthy and falsy values is essential for writing efficient and log
 ### 7. Conclusion
 
 Today, we've explored conditional statements, truthy and falsy values, and how to make decisions in Python. You've learned about `if`, `else`, and `elif` statements and how to nest them for more complex logic. These concepts are essential for controlling the flow of your Python programs. Practice writing conditional code and continue building your Python skills.
+
+### 8. Assignments
+
+- [Truthy and Falsy](https://replit.com/@cpadmin/truthyfalsy#main.py)
+- [Conditional Flow](https://replit.com/@cpadmin/Conditional-Flow#main.py)
