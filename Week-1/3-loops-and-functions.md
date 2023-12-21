@@ -264,3 +264,10 @@ Functions in Python are powerful tools for organizing and reusing code. Whether 
 Today, we've delved into loops, an essential tool for performing repetitive tasks, and functions, which help us organize and reuse code. You've learned about different types of loops and how to use them with various data structures. Additionally, you've seen how to create and call functions in Python.
 
 Keep practicing loops and functions as they are fundamental building blocks for creating more complex Python programs. We look forward to seeing you for Day 4, where we'll explore more advanced Python concepts.
+
+### 5. Assignments
+
+- [Loops and Loops](https://replit.com/@cpadmin/loopsandloops#main.py)
+- [Space X countdown](https://replit.com/@cpadmin/SpaceX-Countdown-Python#main.py)
+- [FizzBuzz](https://replit.com/@cpadmin/FizzBuzz-Python#main.py)
+- [Camel Case](https://replit.com/@cpadmin/FizzBuzz-Python#main.py)
