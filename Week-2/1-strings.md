@@ -267,3 +267,9 @@ reversed_text = text[::-1]  # Results in "olleH"
 In this lecture, you've explored a range of built-in string methods in Python, each designed to help you manipulate and process text efficiently. Understanding when and how to use these methods is essential for working with strings in various applications, from data cleaning and formatting to text analysis and data extraction. Continue practicing and applying these methods to become proficient in text processing with Python.
 
 This comprehensive lecture covers all the major built-in string methods in Python, providing detailed explanations, use cases, and examples for each method. It aims to help learners understand how to effectively work with strings in Python and take full advantage of these methods for various text-related tasks.
+
+### 6. Assignments
+
+- [Exclamations](https://replit.com/@cpadmin/exclamations#main.py)
+- [Esrever](https://replit.com/@cpadmin/Reverse#main.py)
+- [DNA](https://replit.com/@cpadmin/DNA#main.py)
