@@ -169,3 +169,9 @@ Tuple Methods:
 In this lecture, you've explored the capabilities and limitations of Python lists and tuples. Lists are mutable and offer extensive methods for manipulation, making them suitable for dynamic collections. Tuples, on the other hand, are immutable and provide security for data that should not change. Understanding when and how to use each structure is crucial in Python programming.
 
 Remember to practice and apply these concepts in your Python projects to become proficient in working with lists and tuples.
+
+### 4. Assignments
+
+- [Doubles](https://replit.com/@cpadmin/Doubles#main.py)
+- [Traveler](https://replit.com/@cpadmin/Traveler#main.py)
+- [Museum](https://replit.com/@cpadmin/Museum#main.py)
