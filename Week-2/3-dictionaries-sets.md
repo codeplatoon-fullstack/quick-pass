@@ -145,3 +145,10 @@ In this lecture, you've explored the power of dictionaries and sets in Python, a
 Continue to practice and apply these concepts in your Python projects to become proficient in working with dictionaries and sets.
 
 This lecture comprehensively covers the built-in methods of dictionaries and sets in Python, providing explanations and code examples for each method.
+
+### 4. Assignments
+
+- [Number of Characters](https://replit.com/@cpadmin/Number-of-Characters-Python#main.py)
+- [Car Trip](https://replit.com/@cpadmin/Car-Trip-Python#main.py)
+- [How much will you spend](https://replit.com/@cpadmin/How-much-will-you-spend#main.py)
+- [Employee Data](https://replit.com/@cpadmin/Employee-Data-Python#main.py)
