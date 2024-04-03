@@ -212,4 +212,4 @@ deep_copy = copy.deepcopy(original)
 
 ## 6. Conclusion (5 minutes)
 
-In this extensive 2-hour lecture, you've explored the fundamentals of working with 2-dimensional lists in Python. You have learned how to create, access, and modify elements in these lists. Practice is the key to mastering this skill, so continue to work with 2-dimensional lists and explore more complex scenarios. As you grow your
+In this extensive 2-hour lecture, you've explored the fundamentals of working with 2-dimensional lists in Python. You have learned how to create, access, and modify elements in these lists. Practice is the key to mastering this skill, so continue to work with 2-dimensional lists and explore more complex scenarios.

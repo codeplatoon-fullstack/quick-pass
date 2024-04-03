@@ -1,4 +1,4 @@
-# Problem Solving Strategies for Python Developers
+# Python Introduction & Problem Solving Strategies
 
 ## Introduction (5 minutes)
 
@@ -6,7 +6,7 @@ Welcome to the lesson on problem-solving strategies for Python developers. In th
 
 ## Table of Contents
 
-- [Problem Solving Strategies for Python Developers](#problem-solving-strategies-for-python-developers)
+- [Python Introduction \& Problem Solving Strategies](#python-introduction--problem-solving-strategies)
   - [Introduction (5 minutes)](#introduction-5-minutes)
   - [Table of Contents](#table-of-contents)
   - [1. Understanding the Problem (15 minutes)](#1-understanding-the-problem-15-minutes)
