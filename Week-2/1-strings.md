@@ -185,9 +185,7 @@ Welcome to today's lecture on Python strings and their built-in methods. Strings
   is_numeric = number.isnumeric()  # Result: True
   ```
 
-#### o. `str.is
-
-alnum()` (5 minutes)
+#### o. `str.isalnum()` (5 minutes)
 
 - **Description**: Checks if all characters in a string are alphanumeric (letters or digits).
 - **Use Case**: Useful for validating input that should be a combination of letters and digits.
