@@ -1,7 +1,7 @@
-# Code Platoon - QuickPass
+# Code Platoon - Guided Application
 
 # Introduction
- Welcome to Code Platoon's Quickpass Program!  This repository contains all the files and information you need to complete QuickPass and start your coding education journey!
+ Welcome to Code Platoon's Guided Application Program!  This repository contains all the files and information you need to complete this course and start your coding education journey!
 
  ## Viewing Course Files
 
